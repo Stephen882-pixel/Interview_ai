@@ -11,9 +11,18 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+import secrets
+import json
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+secrets_file = BASE_DIR / 'secrets.json'
+
+with open(secrets_file)  as f:
+    secrets = json.load(f)
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -49,9 +58,6 @@ REST_FRAMEWORK = {
     ],
 }
 
-
-# OpenAI API key
-OPENAI_API_KEY = "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"
 
 from datetime import timedelta
 SIMPLE_JWT = {
@@ -174,22 +180,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# from openai import OpenAI
-
-# client = OpenAI(
-#   api_key="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"
-# )
-
-# completion = client.chat.completions.create(
-#   model="gpt-4o-mini",
-#   store=True,
-#   messages=[
-#     {"role": "user", "content": "write a haiku about ai"}
-#   ]
-# )
-
-# print(completion.choices[0].message);
 
 
-#GOOLE_GEMINI_API_KEY = "AIzaSyBFfemTtuUdXeSb78B-kpwLBtd9vsTPEyc"
-GOOGLE_GEMINI_API_KEY = "AIzaSyBFfemTtuUdXeSb78B-kpwLBtd9vsTPEyc"
+
+GOOGLE_GEMINI_API_KEY = secrets['GOOGLE_GEMINI_API_KEY']

@@ -12,7 +12,7 @@ from rest_framework import generics
 from rest_framework.views import APIView
 from django.contrib.auth import authenticate
 from rest_framework_simplejwt.tokens import RefreshToken
-openai.api_key = settings.OPENAI_API_KEY
+
 import google.generativeai as genai
 # Set up the Gemini API key
 genai.configure(api_key=settings.GOOGLE_GEMINI_API_KEY)
