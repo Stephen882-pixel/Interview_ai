@@ -1,2 +1,3 @@
 virtual
 secrets.json
+__pycache__/
