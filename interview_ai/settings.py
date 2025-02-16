@@ -39,8 +39,56 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
+    'rest_framework_simplejwt'
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+}
+
+
+# OpenAI API key
+OPENAI_API_KEY = "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"
+
+from datetime import timedelta
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
+}
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'debug.log',
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+        },
+    },
+}
+
+AUTH_USER_MODEL = 'core.User' 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -124,3 +172,24 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# from openai import OpenAI
+
+# client = OpenAI(
+#   api_key="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"
+# )
+
+# completion = client.chat.completions.create(
+#   model="gpt-4o-mini",
+#   store=True,
+#   messages=[
+#     {"role": "user", "content": "write a haiku about ai"}
+#   ]
+# )
+
+# print(completion.choices[0].message);
+
+
+#GOOLE_GEMINI_API_KEY = "AIzaSyBFfemTtuUdXeSb78B-kpwLBtd9vsTPEyc"
+GOOGLE_GEMINI_API_KEY = "AIzaSyBFfemTtuUdXeSb78B-kpwLBtd9vsTPEyc"

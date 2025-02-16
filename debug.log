@@ -1,0 +1,685 @@
+INFO 2025-02-16 20:35:14,746 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:36:15,867 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:36:16,580 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:36:41,522 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:36:42,233 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-16 20:38:41,186 views openAI API connection test failed: 'Chat' object has no attribute 'Completion'
+INFO 2025-02-16 20:41:50,267 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:41:51,131 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:41:53,703 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:41:54,395 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:42:16,858 views Starting question generation for interview 2
+ERROR 2025-02-16 20:42:16,858 views openAI API connection test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR 2025-02-16 20:42:16,858 views OpenAI API connection failed:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR 2025-02-16 20:42:16,860 log Service Unavailable: /interviews/2/generate_questions/
+ERROR 2025-02-16 20:42:52,282 views openAI API connection test failed: 'Chat' object has no attribute 'Completion'
+INFO 2025-02-16 20:44:18,922 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:19,605 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:23,664 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:24,476 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:33,847 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:34,568 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:37,014 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:37,812 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:40,428 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:41,172 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:50,737 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:51,424 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:44:55,561 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:44:56,416 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:45:05,664 views Starting question generation for interview 2
+ERROR 2025-02-16 20:45:05,665 views openAI API connection test failed: module 'openai' has no attribute 'Chat'
+ERROR 2025-02-16 20:45:05,665 views OpenAI API connection failed:module 'openai' has no attribute 'Chat'
+ERROR 2025-02-16 20:45:05,666 log Service Unavailable: /interviews/2/generate_questions/
+ERROR 2025-02-16 20:45:14,674 views openAI API connection test failed: 'Chat' object has no attribute 'Completion'
+ERROR 2025-02-16 20:45:38,803 views openAI API connection test failed: 'Chat' object has no attribute 'Completion'
+INFO 2025-02-16 20:46:04,263 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:05,172 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:09,668 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:10,486 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:15,795 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:16,679 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:20,459 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:21,417 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:27,704 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:28,553 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:31,172 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 20:46:31,766 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 20:46:39,738 views Starting question generation for interview 2
+DEBUG 2025-02-16 20:46:39,869 _base_client Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello'}], 'model': 'gpt-4o-mini', 'max_tokens': 10}}
+DEBUG 2025-02-16 20:46:39,875 _base_client Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG 2025-02-16 20:46:39,876 _trace connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG 2025-02-16 20:46:44,362 _trace connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x72d20bdd08f0>
+DEBUG 2025-02-16 20:46:44,362 _trace start_tls.started ssl_context=<ssl.SSLContext object at 0x72d20b365f50> server_hostname='api.openai.com' timeout=5.0
+DEBUG 2025-02-16 20:46:45,479 _trace start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x72d20bd1c680>
+DEBUG 2025-02-16 20:46:45,479 _trace send_request_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:45,481 _trace send_request_headers.complete
+DEBUG 2025-02-16 20:46:45,481 _trace send_request_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:45,483 _trace send_request_body.complete
+DEBUG 2025-02-16 20:46:45,483 _trace receive_response_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:55,567 _trace receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Feb 2025 20:46:55 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_68677ae74d6cf346c20ce9523022ca60'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=mcIl9bkFsEgn1tbO2U331aphThj2Qo7envz.ygUnGag-1739738815-1.0.1.1-MtqswlULNjQmCXqaqp_iH..RaxidliVG5S5fRdFv25.4UgTNEFDG5i1OfgoWunt_NItDhd3vQ4SV0ZakOO4F5w; path=/; expires=Sun, 16-Feb-25 21:16:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=fX3UlEzo63MzOlzH5pzU2ytt6iMzXjAJhVT_UNcGbfA-1739738815554-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'913063c1beb28a65-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO 2025-02-16 20:46:55,568 _client HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+DEBUG 2025-02-16 20:46:55,569 _trace receive_response_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:55,569 _trace receive_response_body.complete
+DEBUG 2025-02-16 20:46:55,569 _trace response_closed.started
+DEBUG 2025-02-16 20:46:55,570 _trace response_closed.complete
+DEBUG 2025-02-16 20:46:55,570 _base_client HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sun, 16 Feb 2025 20:46:55 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_68677ae74d6cf346c20ce9523022ca60'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=mcIl9bkFsEgn1tbO2U331aphThj2Qo7envz.ygUnGag-1739738815-1.0.1.1-MtqswlULNjQmCXqaqp_iH..RaxidliVG5S5fRdFv25.4UgTNEFDG5i1OfgoWunt_NItDhd3vQ4SV0ZakOO4F5w; path=/; expires=Sun, 16-Feb-25 21:16:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=fX3UlEzo63MzOlzH5pzU2ytt6iMzXjAJhVT_UNcGbfA-1739738815554-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '913063c1beb28a65-MBA'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG 2025-02-16 20:46:55,570 _base_client request_id: req_68677ae74d6cf346c20ce9523022ca60
+DEBUG 2025-02-16 20:46:55,570 _base_client Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+DEBUG 2025-02-16 20:46:55,573 _base_client Retrying due to status code 429
+DEBUG 2025-02-16 20:46:55,573 _base_client 2 retries left
+INFO 2025-02-16 20:46:55,573 _base_client Retrying request to /chat/completions in 0.376100 seconds
+DEBUG 2025-02-16 20:46:55,949 _base_client Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello'}], 'model': 'gpt-4o-mini', 'max_tokens': 10}}
+DEBUG 2025-02-16 20:46:55,952 _base_client Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG 2025-02-16 20:46:55,953 _trace send_request_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:55,954 _trace send_request_headers.complete
+DEBUG 2025-02-16 20:46:55,954 _trace send_request_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:55,955 _trace send_request_body.complete
+DEBUG 2025-02-16 20:46:55,955 _trace receive_response_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:56,637 _trace receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Feb 2025 20:46:56 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_333854b14cfbe06cd59b66a73649d35e'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'913063d1bda48a65-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO 2025-02-16 20:46:56,638 _client HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+DEBUG 2025-02-16 20:46:56,638 _trace receive_response_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:56,638 _trace receive_response_body.complete
+DEBUG 2025-02-16 20:46:56,639 _trace response_closed.started
+DEBUG 2025-02-16 20:46:56,639 _trace response_closed.complete
+DEBUG 2025-02-16 20:46:56,639 _base_client HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 16 Feb 2025 20:46:56 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_333854b14cfbe06cd59b66a73649d35e', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '913063d1bda48a65-MBA', 'alt-svc': 'h3=":443"; ma=86400'})
+DEBUG 2025-02-16 20:46:56,639 _base_client request_id: req_333854b14cfbe06cd59b66a73649d35e
+DEBUG 2025-02-16 20:46:56,639 _base_client Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+DEBUG 2025-02-16 20:46:56,640 _base_client Retrying due to status code 429
+DEBUG 2025-02-16 20:46:56,640 _base_client 1 retry left
+INFO 2025-02-16 20:46:56,640 _base_client Retrying request to /chat/completions in 0.883678 seconds
+DEBUG 2025-02-16 20:46:57,525 _base_client Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello'}], 'model': 'gpt-4o-mini', 'max_tokens': 10}}
+DEBUG 2025-02-16 20:46:57,526 _base_client Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG 2025-02-16 20:46:57,526 _trace send_request_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:57,527 _trace send_request_headers.complete
+DEBUG 2025-02-16 20:46:57,527 _trace send_request_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:57,527 _trace send_request_body.complete
+DEBUG 2025-02-16 20:46:57,527 _trace receive_response_headers.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:58,199 _trace receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Feb 2025 20:46:58 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_bddb808b0bfc3f3a43a817c91db356eb'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'913063db6c888a65-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO 2025-02-16 20:46:58,201 _client HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+DEBUG 2025-02-16 20:46:58,201 _trace receive_response_body.started request=<Request [b'POST']>
+DEBUG 2025-02-16 20:46:58,202 _trace receive_response_body.complete
+DEBUG 2025-02-16 20:46:58,202 _trace response_closed.started
+DEBUG 2025-02-16 20:46:58,203 _trace response_closed.complete
+DEBUG 2025-02-16 20:46:58,203 _base_client HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 16 Feb 2025 20:46:58 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_bddb808b0bfc3f3a43a817c91db356eb', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '913063db6c888a65-MBA', 'alt-svc': 'h3=":443"; ma=86400'})
+DEBUG 2025-02-16 20:46:58,204 _base_client request_id: req_bddb808b0bfc3f3a43a817c91db356eb
+DEBUG 2025-02-16 20:46:58,204 _base_client Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/openai/_base_client.py", line 1050, in _request
+    response.raise_for_status()
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+DEBUG 2025-02-16 20:46:58,206 _base_client Re-raising status error
+ERROR 2025-02-16 20:46:58,207 views openAI API connection test failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+ERROR 2025-02-16 20:46:58,207 views OpenAI API connection failed:Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+ERROR 2025-02-16 20:46:58,209 log Service Unavailable: /interviews/2/generate_questions/
+INFO 2025-02-16 21:13:19,179 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
+INFO 2025-02-16 21:18:22,175 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:30:30,001 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:30:57,708 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
+INFO 2025-02-16 21:30:58,595 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:31:18,281 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
+INFO 2025-02-16 21:31:19,228 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:31:22,179 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
+INFO 2025-02-16 21:31:22,886 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:31:32,713 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:32:58,870 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:32:59,817 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:33:38,218 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:34:22,959 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
+INFO 2025-02-16 21:34:23,871 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:34:29,789 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:34:40,411 views Starting question generation for interview 2
+INFO 2025-02-16 21:34:40,416 views Generating questions for Python developer with proficiency level 8/10
+ERROR 2025-02-16 21:34:40,416 views Gemini API error while generating questions: module 'google.generativeai' has no attribute 'generate_content'
+ERROR 2025-02-16 21:34:40,417 log Internal Server Error: /interviews/2/generate_questions/
+INFO 2025-02-16 21:34:54,372 views Starting question generation for interview 2
+INFO 2025-02-16 21:34:54,380 views Generating questions for Python developer with proficiency level 8/10
+ERROR 2025-02-16 21:34:54,381 views Gemini API error while generating questions: module 'google.generativeai' has no attribute 'generate_content'
+ERROR 2025-02-16 21:34:54,381 log Internal Server Error: /interviews/2/generate_questions/
+INFO 2025-02-16 21:35:09,460 views Starting question generation for interview 2
+INFO 2025-02-16 21:35:09,465 views Generating questions for Python developer with proficiency level 8/10
+ERROR 2025-02-16 21:35:09,466 views Gemini API error while generating questions: module 'google.generativeai' has no attribute 'generate_content'
+ERROR 2025-02-16 21:35:09,466 log Internal Server Error: /interviews/2/generate_questions/
+INFO 2025-02-16 21:39:53,480 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:39:54,604 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:02,219 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:03,297 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:11,029 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:12,210 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:14,697 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:15,484 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:19,386 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:20,545 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:26,218 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:27,156 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:31,897 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:32,776 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:36,195 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:36,863 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:41,416 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:42,246 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:45,207 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:46,089 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:48,702 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:49,327 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:40:52,824 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:40:53,848 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:41:02,383 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:41:03,193 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:41:04,685 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:41:05,487 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:41:08,899 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:41:09,651 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:41:37,369 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:41:38,346 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:41:58,444 views Starting question generation for interview 2
+INFO 2025-02-16 21:41:58,453 views Generating questions for Python developer with proficiency level 8/10
+ERROR 2025-02-16 21:42:05,225 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,225 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,225 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,225 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,225 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:05,226 views Failed to save question: name 'Question' is not defined
+INFO 2025-02-16 21:42:05,227 views Generating questions for Java developer with proficiency level 7/10
+ERROR 2025-02-16 21:42:11,043 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,043 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,044 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,044 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,044 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,044 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,045 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,045 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,045 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,045 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,046 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,046 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,046 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,046 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,046 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,047 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,047 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,047 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,047 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,047 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,048 views Failed to save question: name 'Question' is not defined
+ERROR 2025-02-16 21:42:11,050 log Internal Server Error: /interviews/2/generate_questions/
+INFO 2025-02-16 21:43:17,284 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:43:20,124 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:43:35,167 views Starting question generation for interview 2
+INFO 2025-02-16 21:43:35,172 views Generating questions for Python developer with proficiency level 8/10
+INFO 2025-02-16 21:43:42,825 views Created question: Okay, here are three advanced technical interview ...
+INFO 2025-02-16 21:43:42,833 views Created question: **Question 1:  Optimizing a Complex Data Pipeline*...
+INFO 2025-02-16 21:43:42,842 views Created question: *   **Scenario:** You're responsible for a data pi...
+INFO 2025-02-16 21:43:42,849 views Created question: *   **Question:**...
+INFO 2025-02-16 21:43:42,855 views Created question: 1.  Describe the key performance bottlenecks you w...
+INFO 2025-02-16 21:43:42,861 views Created question: 2.  Outline a comprehensive strategy for optimizin...
+INFO 2025-02-16 21:43:42,867 views Created question: *   Code-level optimizations (e.g., using optimize...
+INFO 2025-02-16 21:43:42,873 views Created question: *   Parallelization and concurrency strategies (e....
+INFO 2025-02-16 21:43:42,879 views Created question: *   Data format and storage considerations (e.g., ...
+INFO 2025-02-16 21:43:42,885 views Created question: *   Infrastructure and resource allocation (e.g., ...
+INFO 2025-02-16 21:43:42,891 views Created question: *   Database optimizations (e.g., indexing, partit...
+INFO 2025-02-16 21:43:42,897 views Created question: 3.  Discuss the trade-offs involved in each optimi...
+INFO 2025-02-16 21:43:42,902 views Created question: 4.  How would you monitor the performance of the o...
+INFO 2025-02-16 21:43:42,909 views Created question: *   **Expected Answer Characteristics:**  A strong...
+INFO 2025-02-16 21:43:42,914 views Created question: *   Deep understanding of Python profiling tools (...
+INFO 2025-02-16 21:43:42,920 views Created question: *   Knowledge of various parallel processing frame...
+INFO 2025-02-16 21:43:42,920 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-02-16 21:43:48,126 views Created question: Okay, here are 3 intermediate technical interview ...
+INFO 2025-02-16 21:43:48,132 views Created question: **Question 1:  Thread Safety and Immutability**...
+INFO 2025-02-16 21:43:48,138 views Created question: *   **Scenario:**  Imagine you are designing a cla...
+INFO 2025-02-16 21:43:48,144 views Created question: *   **Question:**...
+INFO 2025-02-16 21:43:48,151 views Created question: 1.  How would you design this class to ensure thre...
+INFO 2025-02-16 21:43:48,157 views Created question: 2.  Discuss the advantages and disadvantages of yo...
+INFO 2025-02-16 21:43:48,165 views Created question: 3.  Could you use the `java.util.concurrent.Concur...
+INFO 2025-02-16 21:43:48,172 views Created question: *   **Follow-up probes:**...
+INFO 2025-02-16 21:43:48,177 views Created question: *   What are the benefits of immutability in a mul...
+INFO 2025-02-16 21:43:48,185 views Created question: *   How would you handle the rare updates to the c...
+INFO 2025-02-16 21:43:48,192 views Created question: *   If the values were more complex objects (e.g.,...
+INFO 2025-02-16 21:43:48,199 views Created question: **Why this question is good:**...
+INFO 2025-02-16 21:43:48,204 views Created question: *   **Tests Understanding of Immutability:**  It a...
+INFO 2025-02-16 21:43:48,211 views Created question: *   **Evaluates Concurrency Knowledge:**  It check...
+INFO 2025-02-16 21:43:48,217 views Created question: *   **Explores Trade-offs:**  It encourages the ca...
+INFO 2025-02-16 21:43:48,222 views Created question: *   **Assesses Practical Application:**  It asks a...
+INFO 2025-02-16 21:43:48,228 views Created question: **Question 2:  The Observer Pattern and Reactive P...
+INFO 2025-02-16 21:43:48,234 views Created question: *   **Scenario:** You are building a system that n...
+INFO 2025-02-16 21:51:26,179 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:51:29,264 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:51:33,894 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:51:34,862 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:51:38,330 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:51:39,180 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:51:47,099 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:51:48,215 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:52:16,562 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:52:17,561 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:52:27,361 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:52:28,284 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:52:39,849 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:52:40,735 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-16 21:54:03,245 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:54:32,964 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:54:34,532 log Not Found: /interviews/2/generate_questions/
+INFO 2025-02-16 21:55:01,602 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/urls.py changed, reloading.
+INFO 2025-02-16 21:55:02,453 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 21:55:37,174 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-16 21:55:42,668 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:57:04,402 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:57:07,512 log Not Found: /interviews/2/generate_questions/
+INFO 2025-02-16 21:59:07,014 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 21:59:08,026 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-16 21:59:23,145 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:59:24,712 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:59:26,101 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:59:27,278 log Not Found: /interviews/2/generate_questions/
+WARNING 2025-02-16 21:59:28,344 log Not Found: /interviews/2/generate_questions/
+INFO 2025-02-16 22:00:05,421 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:00:06,508 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:00:11,074 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:00:11,541 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:00:14,306 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:00:15,377 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:00:28,278 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:00:29,325 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:00:34,432 views Starting question generation for interview 2
+INFO 2025-02-16 22:01:20,704 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:01:23,555 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:01:32,932 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:01:33,847 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:01:36,371 views Starting question generation for interview 2
+INFO 2025-02-16 22:01:36,376 views Generating questions for Python developer with proficiency level 8/10
+INFO 2025-02-16 22:01:44,685 views Created question: Okay, here are three advanced technical interview ...
+INFO 2025-02-16 22:01:44,690 views Created question: **Question 1:  Optimizing Data Pipelines with Asyn...
+INFO 2025-02-16 22:01:44,696 views Created question: *   **Question:** You're tasked with building a da...
+INFO 2025-02-16 22:01:44,702 views Created question: *   Explain how you would identify the bottlenecks...
+INFO 2025-02-16 22:01:44,708 views Created question: *   How would you determine whether `asyncio` or m...
+INFO 2025-02-16 22:01:44,715 views Created question: *   Provide a high-level code sketch (using pseudo...
+INFO 2025-02-16 22:01:44,721 views Created question: *   Discuss potential challenges you might encount...
+INFO 2025-02-16 22:01:44,727 views Created question: *   **Rationale:**  This question tests the candid...
+INFO 2025-02-16 22:01:44,733 views Created question: *   **Areas to Explore in the Answer:**...
+INFO 2025-02-16 22:01:44,742 views Created question: *   **Bottleneck Identification:**  Profiling tool...
+INFO 2025-02-16 22:01:44,747 views Created question: *   **`asyncio` vs. Multiprocessing:**  `asyncio` ...
+INFO 2025-02-16 22:01:44,753 views Created question: *   **Code Sketch:**...
+INFO 2025-02-16 22:01:44,754 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-02-16 22:01:50,189 views Created question: Okay, here are 3 intermediate technical interview ...
+INFO 2025-02-16 22:01:50,196 views Created question: **Question 1: Thread Safety and Immutability**...
+INFO 2025-02-16 22:01:50,204 views Created question: *   **Scenario:** You are building a multi-threade...
+INFO 2025-02-16 22:01:50,211 views Created question: *   **Question:**...
+INFO 2025-02-16 22:01:50,216 views Created question: *   Describe the importance of thread safety when ...
+INFO 2025-02-16 22:01:50,221 views Created question: *   Explain how immutability can contribute to thr...
+INFO 2025-02-16 22:01:50,227 views Created question: *   What are the advantages and disadvantages of u...
+INFO 2025-02-16 22:01:50,233 views Created question: *   Under what circumstances would you prefer one ...
+INFO 2025-02-16 22:01:50,238 views Created question: **Why this is a good question:**...
+INFO 2025-02-16 22:01:50,245 views Created question: *   **Tests core concurrency knowledge:** Assesses...
+INFO 2025-02-16 22:01:50,250 views Created question: *   **Evaluates design choices:**  Forces the cand...
+INFO 2025-02-16 22:01:50,255 views Created question: *   **Explores practical application:**  Requires ...
+INFO 2025-02-16 22:01:50,264 views Created question: *   **Probes performance awareness:**  Asks about ...
+INFO 2025-02-16 22:01:50,269 views Created question: **Question 2: Design Patterns - Observer Pattern**...
+INFO 2025-02-16 22:01:50,275 views Created question: *   **Scenario:** You are developing a system that...
+INFO 2025-02-16 22:01:50,283 views Created question: *   **Question:**...
+INFO 2025-02-16 22:01:50,288 views Created question: *   Explain the Observer design pattern. Describe ...
+INFO 2025-02-16 22:01:50,298 views Created question: *   How would you implement the Observer pattern i...
+INFO 2025-02-16 22:01:50,304 views Created question: *   What are the advantages of using the Observer ...
+INFO 2025-02-16 22:01:50,311 views Created question: *   What are potential drawbacks or challenges wit...
+INFO 2025-02-16 22:15:10,427 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:13,630 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:15:19,250 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:19,789 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:15:23,232 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:24,309 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:15:43,891 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:45,030 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:15:50,533 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:51,207 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:15:57,667 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:15:58,574 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:16:02,937 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:16:03,929 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:16:07,627 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:16:08,684 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:16:19,457 views Starting question generation for interview 2
+INFO 2025-02-16 22:16:19,464 views Generating questions for Python developer with proficiency level 8/10
+INFO 2025-02-16 22:16:26,297 views Created question: Okay, here are 3 advanced technical interview ques...
+INFO 2025-02-16 22:16:26,304 views Created question: **Question 1: Optimization - High-Performance Data...
+INFO 2025-02-16 22:16:26,310 views Created question: **Question:**...
+INFO 2025-02-16 22:16:26,316 views Created question: You're building a real-time data processing pipeli...
+INFO 2025-02-16 22:16:26,325 views Created question: 1.  **Identify the potential bottlenecks in the cu...
+INFO 2025-02-16 22:16:26,331 views Created question: 2.  **Describe at least three different architectu...
+INFO 2025-02-16 22:16:26,338 views Created question: 3.  **For the approach you consider most promising...
+INFO 2025-02-16 22:16:26,344 views Created question: **Reasoning:**...
+INFO 2025-02-16 22:16:26,351 views Created question: *   **Tests understanding of performance bottlenec...
+INFO 2025-02-16 22:16:26,358 views Created question: *   **Evaluates architectural design skills:**  It...
+INFO 2025-02-16 22:16:26,365 views Created question: *   **Assesses practical Python knowledge:**  It r...
+INFO 2025-02-16 22:16:26,378 views Created question: *   **Checks understanding of trade-offs:** Shows ...
+INFO 2025-02-16 22:16:26,385 views Created question: **Expected Depth of Answer:**...
+INFO 2025-02-16 22:16:26,390 views Created question: *   **Bottleneck Identification:**  The candidate ...
+INFO 2025-02-16 22:16:26,390 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-02-16 22:16:31,623 views Created question: Okay, here are 3 intermediate-level Java technical...
+INFO 2025-02-16 22:16:31,631 views Created question: **Question 1: Thread Safety and Immutability**...
+INFO 2025-02-16 22:16:31,637 views Created question: *   **Scenario:** You are developing a multi-threa...
+INFO 2025-02-16 22:16:31,644 views Created question: *   **Question:**...
+INFO 2025-02-16 22:16:31,650 views Created question: *   Describe the potential issues that can arise i...
+INFO 2025-02-16 22:16:31,657 views Created question: *   Explain how you would design a thread-safe con...
+INFO 2025-02-16 22:16:31,665 views Created question: *   How would you ensure the configuration data is...
+INFO 2025-02-16 22:16:31,673 views Created question: *   How would you prevent modification of the conf...
+INFO 2025-02-16 22:16:31,680 views Created question: *   What are the benefits of using immutability in...
+INFO 2025-02-16 22:16:31,686 views Created question: *   Provide a simplified code example demonstratin...
+INFO 2025-02-16 22:16:31,693 views Created question: *   Discuss alternative approaches to thread safet...
+INFO 2025-02-16 22:16:31,701 views Created question: **Why this is a good question:**...
+INFO 2025-02-16 22:16:31,708 views Created question: *   **Tests understanding of concurrency:**  Evalu...
+INFO 2025-02-16 22:16:31,716 views Created question: *   **Assesses knowledge of immutability:**  Check...
+INFO 2025-02-16 22:16:31,723 views Created question: *   **Evaluates practical application:**  Requires...
+INFO 2025-02-16 22:16:31,729 views Created question: *   **Encourages comparison of approaches:**  Prom...
+INFO 2025-02-16 22:16:31,736 views Created question: **Question 2: Design Patterns - Observer Pattern a...
+INFO 2025-02-16 22:16:31,743 views Created question: *   **Scenario:** You are building a system that t...
+INFO 2025-02-16 22:16:31,749 views Created question: *   **Question:**...
+INFO 2025-02-16 22:16:31,755 views Created question: *   Describe the Observer pattern and how it can b...
+INFO 2025-02-16 22:16:31,761 views Created question: *   Explain the roles of the Subject (Observable) ...
+INFO 2025-02-16 22:16:56,571 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:16:59,834 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:09,277 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:10,341 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:18,115 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:19,061 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:23,626 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:24,313 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:28,787 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:29,385 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:31,721 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:32,421 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:35,130 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:35,863 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:37,287 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:37,820 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:51,667 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:52,554 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:17:56,136 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:17:56,943 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:04,652 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:05,731 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:09,225 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:09,943 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:21,030 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:21,696 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:31,555 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:32,308 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:41,300 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:42,066 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:52,776 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:53,574 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:18:55,101 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:18:55,861 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:09,527 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:10,400 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:25,568 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:26,319 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:37,118 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:37,717 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:41,209 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:41,749 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:44,084 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:45,260 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:19:54,978 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:19:55,729 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:05,515 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:06,143 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:07,611 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:08,408 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:17,087 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:17,892 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:21,460 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:22,372 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:24,953 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:25,692 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:34,531 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:35,372 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:36,960 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:37,729 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:50,586 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:51,351 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:20:52,823 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:20:53,729 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:06,667 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:07,413 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:13,100 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:13,812 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:17,238 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:17,897 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:19,375 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:20,233 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:23,818 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:24,322 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:25,831 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:26,590 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:32,198 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:32,886 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:40,618 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:41,346 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:55,448 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:56,054 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:57,522 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:21:58,164 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:21:59,961 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:00,799 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:05,358 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:06,205 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:14,127 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:14,805 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:17,572 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:18,260 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:23,730 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:24,340 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:25,927 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:26,628 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:28,101 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:28,608 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:47,593 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:48,618 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:50,035 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:50,735 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:54,225 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:54,795 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:56,301 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:57,021 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:22:59,432 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:22:59,993 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:23,072 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:23,816 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:25,349 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:26,338 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:38,072 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:38,711 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:42,112 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:42,697 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:45,086 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:45,909 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:23:48,421 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:23:49,145 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:08,097 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:08,910 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:11,431 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:12,257 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:13,710 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:14,365 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:22,285 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:23,014 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:27,563 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:28,243 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:34,869 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:35,583 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:42,137 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:42,780 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:51,478 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:52,261 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:54,720 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:55,701 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:24:58,072 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:24:58,668 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:02,126 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:02,810 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:13,522 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:14,220 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:15,678 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:16,232 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:18,565 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:19,279 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:21,723 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:22,504 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:23,997 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:24,843 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:35,933 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:36,793 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:41,238 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:41,981 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:55,906 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:25:56,551 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:25:59,720 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:26:00,463 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:26:02,820 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-02-16 22:26:03,308 autoreload Watching for file changes with StatReloader
+INFO 2025-02-16 22:26:10,260 views Starting question generation for interview 2
+INFO 2025-02-16 22:26:10,268 views Generating questions for Python developer with proficiency level 8/10
+INFO 2025-02-16 22:26:17,563 views Created question: Okay, here are three advanced technical interview ...
+INFO 2025-02-16 22:26:17,571 views Created question: **1. Optimization & Profiling:**...
+INFO 2025-02-16 22:26:17,579 views Created question: **Question:** You've identified a performance bott...
+INFO 2025-02-16 22:26:17,587 views Created question: *   **Profiling:**  What tools and techniques woul...
+INFO 2025-02-16 22:26:17,595 views Created question: *   **Optimization Strategies:** Discuss at least ...
+INFO 2025-02-16 22:26:17,603 views Created question: *   **Hardware Considerations:** How would you tai...
+INFO 2025-02-16 22:26:17,611 views Created question: *   **Testing & Verification:** How would you ensu...
+INFO 2025-02-16 22:26:17,618 views Created question: **Why this is advanced:**...
+INFO 2025-02-16 22:26:17,625 views Created question: *   **Requires deep understanding of Python perfor...
+INFO 2025-02-16 22:26:17,634 views Created question: *   **Tests practical problem-solving skills:**  A...
+INFO 2025-02-16 22:26:17,642 views Created question: *   **Explores trade-offs:**  Forces the candidate...
+INFO 2025-02-16 22:26:17,650 views Created question: *   **Hardware awareness:**  Assesses understandin...
+INFO 2025-02-16 22:26:17,656 views Created question: *   **Emphasis on correctness:**  Highlights the i...
+INFO 2025-02-16 22:26:17,662 views Created question: **2. Architectural Design & Scalability:**...
+INFO 2025-02-16 22:26:17,669 views Created question: **Question:** You are tasked with designing a real...
+INFO 2025-02-16 22:26:17,669 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-02-16 22:26:23,041 views Created question: Okay, here are 3 intermediate-level technical inte...
+INFO 2025-02-16 22:26:23,047 views Created question: **Question 1: (Concurrency & Thread Safety)**...
+INFO 2025-02-16 22:26:23,052 views Created question: **Scenario:**  Imagine you're building a high-perf...
+INFO 2025-02-16 22:26:23,061 views Created question: public class Cache<K, V> {...
+INFO 2025-02-16 22:26:23,067 views Created question: private Map<K, V> cache = new HashMap<>();...
+INFO 2025-02-16 22:26:23,074 views Created question: public V get(K key) {...
+INFO 2025-02-16 22:26:23,080 views Created question: return cache.get(key);...
+INFO 2025-02-16 22:26:23,088 views Created question: public void put(K key, V value) {...
+INFO 2025-02-16 22:26:23,094 views Created question: cache.put(key, value);...
+INFO 2025-02-16 22:26:23,101 views Created question: **Question:**...
+INFO 2025-02-16 22:26:23,107 views Created question: 1.  **Identify potential concurrency issues** with...
+INFO 2025-02-16 22:26:23,113 views Created question: 2.  **Describe at least two different approaches**...
+INFO 2025-02-16 22:26:23,118 views Created question: 3.  **Which thread-safe data structure would you r...
+INFO 2025-02-16 22:26:23,124 views Created question: **Why this is a good question:**...
+INFO 2025-02-16 22:26:23,130 views Created question: *   **Tests understanding of fundamental concurren...
+INFO 2025-02-16 22:26:23,136 views Created question: *   **Assesses familiarity with different synchron...
+INFO 2025-02-16 22:26:23,143 views Created question: *   **Evaluates ability to make informed design de...
+INFO 2025-02-16 22:26:23,149 views Created question: *   **Encourages discussion of real-world caching ...
+INFO 2025-02-16 22:26:23,155 views Created question: **Question 2: (Design Patterns - Observer Pattern)...
+INFO 2025-02-16 22:26:23,163 views Created question: **Scenario:**  You are developing a system that mo...
+INFO 2025-02-16 22:26:23,169 views Created question: **Question:**...
+INFO 2025-02-16 22:26:23,180 views Created question: 1.  **Which design pattern would be most suitable ...
+INFO 2025-02-16 22:27:43,730 views Starting question generation for interview 2
+INFO 2025-02-16 22:27:43,735 views Generating questions for Python developer with proficiency level 8/10
+INFO 2025-02-16 22:27:50,684 views Created question: Okay, here are three advanced technical interview ...
+INFO 2025-02-16 22:27:50,689 views Created question: **1.  Optimization & Concurrency:  The Asynchronou...
+INFO 2025-02-16 22:27:50,698 views Created question: *   **Question:** You are building a high-throughp...
+INFO 2025-02-16 22:27:50,705 views Created question: *   Describe the potential causes of this bottlene...
+INFO 2025-02-16 22:27:50,712 views Created question: *   Propose several different optimization strateg...
+INFO 2025-02-16 22:27:50,718 views Created question: *   Multiprocessing (using `multiprocessing` or `c...
+INFO 2025-02-16 22:27:50,725 views Created question: *   Leveraging NumPy/Pandas for vectorized operati...
+INFO 2025-02-16 22:27:50,732 views Created question: *   Just-In-Time (JIT) compilation (e.g., using Nu...
+INFO 2025-02-16 22:27:50,738 views Created question: *   Optimizing the data structures used during tra...
+INFO 2025-02-16 22:27:50,745 views Created question: *   Using a different concurrency model (e.g., usi...
+INFO 2025-02-16 22:27:50,751 views Created question: *   Explain how you would profile and benchmark yo...
+INFO 2025-02-16 22:27:50,757 views Created question: *   **Why it's advanced:** This question requires ...
+INFO 2025-02-16 22:27:50,763 views Created question: **2.  Architecture & Design Patterns:  Scalable Fe...
+INFO 2025-02-16 22:27:50,771 views Created question: *   **Question:** You are tasked with designing a ...
+INFO 2025-02-16 22:27:50,771 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-02-16 22:27:55,542 views Created question: Okay, here are three intermediate-level technical ...
+INFO 2025-02-16 22:27:55,548 views Created question: **Question 1:  (Collections & Immutability)**...
+INFO 2025-02-16 22:27:55,554 views Created question: "Describe the difference between `ArrayList` and `...
+INFO 2025-02-16 22:27:55,560 views Created question: **What you're looking for in a good answer:**...
+INFO 2025-02-16 22:27:55,566 views Created question: *   **ArrayList vs. LinkedList:**...
+INFO 2025-02-16 22:27:55,572 views Created question: *   **Correct Explanation:** `ArrayList` is backed...
+INFO 2025-02-16 22:27:55,578 views Created question: *   **Performance Understanding:**  `ArrayList` of...
+INFO 2025-02-16 22:27:55,585 views Created question: *   **Use Case Scenarios:** `ArrayList` is general...
+INFO 2025-02-16 22:27:55,592 views Created question: *   **Immutability Benefits:**...
+INFO 2025-02-16 22:27:55,598 views Created question: *   **Thread Safety:** Immutable objects are inher...
+INFO 2025-02-16 22:27:55,605 views Created question: *   **Predictability:**  Immutable objects always ...
+INFO 2025-02-16 22:27:55,611 views Created question: *   **Caching:**  Immutable objects can be safely ...
+INFO 2025-02-16 22:27:55,617 views Created question: *   **Security:** Immutability can prevent uninten...
+INFO 2025-02-16 22:27:55,624 views Created question: *   **Creating Immutable Lists:**...
+INFO 2025-02-16 22:27:55,629 views Created question: *   **Java Standard Library (Java 9+):**  `List.of...
