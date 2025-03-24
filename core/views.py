@@ -7,7 +7,7 @@ from openai import OpenAI
 from django.core.mail import send_mail
 from django.conf import settings
 from .serializers import InterviewSerializer,UserSerializer,ProgrammingSkillSerializer
-from .models import Interview,ProgrammingSkill,Question
+from .models import Interview, ProgrammingSkill, Question, Response as ResponseModel
 from rest_framework import generics
 from rest_framework.views import APIView
 from django.contrib.auth import authenticate
@@ -84,6 +84,7 @@ def test_gemini_connection():
         logger.error(f"Gemini API connection test failed: {e}")
         return False, str(e)
 
+
 class InterviewViewSet(viewsets.ModelViewSet):
     serializer_class = InterviewSerializer
     permission_classes = [IsAuthenticated]
@@ -91,114 +92,97 @@ class InterviewViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         if self.request.user.is_recruiter:
             return Interview.objects.all()
-        return Interview.objects.filter(candidate=self.request.user)
+        return Interview.objects.filter(candidate=self.request.user)  # Unchanged, still uses 'candidate'
 
-    def generate_technical_questions(self, skill):
-        """Generate technical questions based on skill level using Gemini"""
+    def _generate_technical_questions(self, skill):
         prompts = {
-            'beginner': f"Generate 3 basic technical interview questions for a beginner {skill.language} developer. Questions should test fundamental concepts.",
-            'intermediate': f"Generate 3 intermediate technical interview questions for a {skill.language} developer. Include questions about best practices and common patterns.",
-            'advanced': f"Generate 3 advanced technical interview questions for an expert {skill.language} developer. Include questions about optimization, architecture, and advanced concepts."
+            'beginner': f"Generate 3 basic technical interview questions for a beginner {skill.language} developer.",
+            'intermediate': f"Generate 3 intermediate technical interview questions for a {skill.language} developer.",
+            'advanced': f"Generate 3 advanced technical interview questions for an expert {skill.language} developer."
         }
-
-        # Determine skill level
-        if skill.proficiency <= 4:
-            level = 'beginner'
-        elif skill.proficiency <= 7:
-            level = 'intermediate'
-        else:
-            level = 'advanced'
-
+        level = 'beginner' if skill.proficiency <= 4 else 'intermediate' if skill.proficiency <= 7 else 'advanced'
         try:
-            # Call Gemini API
             response = model.generate_content(
                 prompts[level],
-                generation_config={"temperature":0.7,"max_output_tokens":500}
+                generation_config={"temperature": 0.7, "max_output_tokens": 500}
             )
-
             questions = response.candidates[0].content.parts[0].text.split("\n")
             return [q.strip() for q in questions if q.strip()]
-        
         except Exception as e:
-            logger.error(f"Gemini API error while generating questions: {str(e)}")
+            logger.error(f"Gemini API error: {str(e)}")
             return None
 
-    @action(detail=True, methods=['post'])
+    @action(detail=True, methods=['post'], url_path='generate-questions')
     def generate_questions(self, request, pk=None):
         logger.info(f'Starting question generation for interview {pk}')
         try:
-            # Get interview object
-            interview = self.get_object()
-            skills = ProgrammingSkill.objects.filter(user=interview.candidate)
+            # Manually check if the interview exists
+            interview = Interview.objects.filter(pk=pk).first()
+            if not interview:
+                return Response({"error": "Interview not found"}, status=status.HTTP_404_NOT_FOUND)
 
+            skills = ProgrammingSkill.objects.filter(user=interview.candidate)
+            logger.info(f"Found skills for candidate {interview.candidate}: {list(skills)}")
             if not skills.exists():
-                logger.warning(f"No skills found for candidate {interview.candidate.id}")
-                return Response({"error": "No programming skills found for candidate"}, status=status.HTTP_400_BAD_REQUEST)
-            
-            generated_questions = []  # Store all generated questions
+                return Response({"error": "No programming skills found"}, status=status.HTTP_400_BAD_REQUEST)
+
+            generated_questions = []
             questions_count = 0
 
             for skill in skills:
-                logger.info(f'Generating questions for {skill.language} developer with proficiency level {skill.proficiency}/10')
-
-                questions = self.generate_technical_questions(skill)
+                questions = self._generate_technical_questions(skill)
                 if not questions:
-                    return Response({"error": "Failed to generate questions"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                    return Response({"error": f"Failed to generate questions for {skill.language}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-                skill_questions = []  # Store questions for this skill
+                skill_questions = []
                 for question in questions:
                     if len(question) > 10:
-                        try:
-                            question_obj = Question.objects.create(
-                                interview=interview,
-                                type='technical',
-                                content=question,
-                                skill=skill
-                            )
-                            questions_count += 1
-                            skill_questions.append({
-                                "id": question_obj.id,
-                                "content": question,
-                                "type": "technical"
-                            })
-                            logger.info(f'Created question: {question[:50]}...')
-                        except Exception as e:
-                            logger.error(f'Failed to save question: {str(e)}')
-                # Add questions for this skill to the main list
+                        question_obj = Question.objects.create(
+                            interview=interview,
+                            type='technical',
+                            content=question,
+                            skill=skill
+                        )
+                        questions_count += 1
+                        skill_questions.append({
+                            "id": question_obj.id,
+                            "content": question,
+                            "type": "technical"
+                        })
                 if skill_questions:
                     generated_questions.append({
                         "language": skill.language,
                         "proficiency": skill.proficiency,
                         "questions": skill_questions
                     })
+
             if questions_count == 0:
-                return Response({"error": "No questions were generated"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-            
-            # Update interview status
+                return Response({"error": "No valid questions generated"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
             interview.status = 'in_progress'
             interview.save()
-
 
             return Response({
                 "status": "Questions generated successfully",
                 "total_questions": questions_count,
                 "questions_by_skill": generated_questions
-            })
+            }, status=status.HTTP_201_CREATED)
+
         except Exception as e:
-            logger.error(f"Critical error in generate_questions: {str(e)}")
-            return Response({"error": "Critical error occurred", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            logger.error(f"Critical error: {str(e)}")
+            return Response({"error": "Failed to generate questions", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-
-    @action(detail=True, methods=['post'])
+    @action(detail=True, methods=['post'], url_path='submit-response')
     def submit_response(self, request, pk=None):
         interview = self.get_object()
         question_id = request.data.get('question_id')
         response_content = request.data.get('content')
 
+        if not question_id or not response_content:
+            return Response({"error": "Missing question_id or content"}, status=status.HTTP_400_BAD_REQUEST)
+
         try:
             question = Question.objects.get(id=question_id, interview=interview)
-
-            # Use Gemini to evaluate the response
             prompt = f"""
             Question: {question.content}
             Answer: {response_content}
@@ -206,54 +190,46 @@ class InterviewViewSet(viewsets.ModelViewSet):
             1. Score (0-100)
             2. Detailed feedback
             """
-
             gpt_response = model.generate_content(prompt)
-
-
             evaluation = gpt_response.candidates[0].content.parts[0].text
-            score = 75  # Placeholder score, you can extract actual score if Gemini provides structured feedback
+
+            score = 75  # Placeholder
             feedback = evaluation
 
-            response = InterviewResponse.objects.create(
+            response_obj = Response.objects.create(
                 question=question,
                 content=response_content,
                 score=score,
                 feedback=feedback
             )
 
-            return Response(ResponseSerializer(response).data)
+            return Response(ResponseSerializer(response_obj).data, status=status.HTTP_201_CREATED)
 
         except Question.DoesNotExist:
-            return Response({"error": "Question Not Found"}, status=status.HTTP_404_NOT_FOUND)
-
+            return Response({"error": "Question not found"}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
-            logger.error(f"Failed to evaluate the response: {str(e)}")
-            return Response({"error": "Failed to evaluate the response", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
-    @action(detail=True,methods=['post'])
-    def complete_interview(self,request,pk=None):
+            logger.error(f"Failed to evaluate response: {str(e)}")
+            return Response({"error": "Failed to evaluate response", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    @action(detail=True, methods=['post'], url_path='complete-interview')
+    def complete_interview(self, request, pk=None):
         interview = self.get_object()
         responses = Response.objects.filter(question__interview=interview)
 
-        if responses.exists():
-            # calculate total score
-            total_score = responses.aggregate(Avg('score'))['score_avg']
-            interviewe.total_score = total_score
-            interview.status = 'completed'
-            interview.save()
+        if not responses.exists():
+            return Response({"error": "No responses found"}, status=status.HTTP_400_BAD_REQUEST)
 
-            # send email with results
-            send_mail(
-                'Interview Results',
-                f'Your Interview has been completed.Total Score:{total_score}',
-                settings.DEFAULT_FROM_EMAIL,
-                [interview.candidate.email],
-                fail_silently=True
-            )
+        total_score = responses.aggregate(Avg('score'))['score__avg']
+        interview.total_score = total_score
+        interview.status = 'completed'
+        interview.save()
 
-            return Response({"status": "Interview completed", "total_score": total_score})
-        return Response(
-            {"error": "No responses found"},
-            status=status.HTTP_400_BAD_REQUEST
+        send_mail(
+            'Interview Results',
+            f'Your interview has been completed. Total Score: {total_score}',
+            settings.DEFAULT_FROM_EMAIL,
+            [interview.candidate.email],  # Uses 'candidate'
+            fail_silently=True
         )
-    
+
+        return Response({"status": "Interview completed", "total_score": total_score}, status=status.HTTP_200_OK)

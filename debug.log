@@ -836,3 +836,499 @@ INFO 2025-02-16 22:57:38,363 autoreload /home/stephen/Desktop/Interview_ai/Inter
 INFO 2025-02-16 22:57:41,315 autoreload Watching for file changes with StatReloader
 INFO 2025-02-16 22:57:47,555 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/interview_ai/settings.py changed, reloading.
 INFO 2025-02-16 22:57:48,314 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 09:42:48,324 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-16 09:43:58,570 log Bad Request: /register/
+INFO 2025-03-16 09:44:21,847 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-16 09:46:07,309 log Unauthorized: /skills/
+WARNING 2025-03-16 09:46:46,940 log Unauthorized: /skills/
+INFO 2025-03-16 09:49:38,050 views Starting question generation for interview 2
+ERROR 2025-03-16 09:49:38,052 views Critical error in generate_questions: No Interview matches the given query.
+ERROR 2025-03-16 09:49:38,052 log Internal Server Error: /interviews/2/generate_questions/
+INFO 2025-03-16 09:49:51,031 views Starting question generation for interview 1
+INFO 2025-03-16 09:49:51,041 views Generating questions for Java developer with proficiency level 7/10
+INFO 2025-03-16 09:49:55,617 views Created question: Okay, here are 3 intermediate-level Java technical...
+INFO 2025-03-16 09:49:55,623 views Created question: **Question 1:  Thread Safety and Concurrent Collec...
+INFO 2025-03-16 09:49:55,629 views Created question: *   **Question:** "Imagine you have a shared resou...
+INFO 2025-03-16 09:49:55,634 views Created question: *   **What the Interviewer is Looking For:**...
+INFO 2025-03-16 09:49:55,640 views Created question: *   **Understanding of Thread Safety:**  The candi...
+INFO 2025-03-16 09:49:55,649 views Created question: *   **Knowledge of Synchronization Mechanisms:** T...
+INFO 2025-03-16 09:49:55,654 views Created question: *   **Familiarity with Concurrent Collections:** T...
+INFO 2025-03-16 09:49:55,661 views Created question: *   **Trade-off Analysis:** This is the key part. ...
+INFO 2025-03-16 09:49:55,667 views Created question: *   `synchronized`:  Can lead to contention and pe...
+INFO 2025-03-16 09:49:55,673 views Created question: *   `ConcurrentHashMap`:  Provides better concurre...
+INFO 2025-03-16 09:49:55,680 views Created question: *   `CopyOnWriteArrayList`:  Optimized for read-he...
+INFO 2025-03-16 09:49:55,686 views Created question: *   **Justification:** The candidate should be abl...
+INFO 2025-03-16 09:49:55,693 views Created question: *   **Bonus:** Mentioning other options like `Reen...
+INFO 2025-03-16 09:49:55,698 views Created question: **Question 2:  Design Patterns: Strategy Pattern a...
+INFO 2025-03-16 10:02:31,983 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-16 10:02:35,249 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-16 10:02:51,972 log Not Found: /interviews/1/generate_questions/
+WARNING 2025-03-16 10:13:38,449 log Not Found: /interviews/2/generate_questions/
+INFO 2025-03-16 10:14:13,093 views Starting question generation for interview 2
+INFO 2025-03-16 10:14:13,099 views Generating questions for Java (proficiency: 7/10)
+INFO 2025-03-16 10:14:17,648 views Created question: Okay, here are 3 intermediate-level Java technical...
+INFO 2025-03-16 10:14:17,655 views Created question: **Question 1:  Thread Safety and Concurrent Data S...
+INFO 2025-03-16 10:14:17,660 views Created question: "Imagine you have a `HashMap` that is being access...
+INFO 2025-03-16 10:14:17,666 views Created question: **What a good answer should demonstrate:**...
+INFO 2025-03-16 10:14:17,672 views Created question: *   **Understanding of Concurrency Issues:**  The ...
+INFO 2025-03-16 10:14:17,678 views Created question: *   **Knowledge of Synchronization Mechanisms:** T...
+INFO 2025-03-16 10:14:17,684 views Created question: *   **`Collections.synchronizedMap(new HashMap<>()...
+INFO 2025-03-16 10:14:17,689 views Created question: *   **`ConcurrentHashMap`:**  This is a more advan...
+INFO 2025-03-16 10:14:17,695 views Created question: *   **(Less common, but acceptable) Using a `ReadW...
+INFO 2025-03-16 10:14:17,700 views Created question: *   **Trade-off Analysis:** The candidate should b...
+INFO 2025-03-16 10:14:17,705 views Created question: *   `Collections.synchronizedMap` is easier to imp...
+INFO 2025-03-16 10:14:17,711 views Created question: *   `ConcurrentHashMap`...
+WARNING 2025-03-16 10:16:00,434 log Not Found: /interviews/2/submit-response/
+ERROR 2025-03-16 10:16:19,402 views Failed to submit response: name 'InterviewResponse' is not defined
+ERROR 2025-03-16 10:16:19,403 log Internal Server Error: /interviews/1/submit-response/
+INFO 2025-03-16 10:20:50,358 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-16 10:20:53,217 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:21:46,533 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-16 10:21:47,550 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:22:18,362 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/serializers.py changed, reloading.
+INFO 2025-03-16 10:22:19,369 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:22:24,685 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/serializers.py changed, reloading.
+INFO 2025-03-16 10:22:25,601 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:22:48,794 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/models.py changed, reloading.
+INFO 2025-03-16 10:22:49,508 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:23:25,870 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/models.py changed, reloading.
+INFO 2025-03-16 10:23:26,770 autoreload Watching for file changes with StatReloader
+INFO 2025-03-16 10:29:03,647 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-16 10:30:18,078 log Unauthorized: /skills/
+WARNING 2025-03-16 10:30:24,634 log Unauthorized: /register/
+ERROR 2025-03-16 10:30:55,505 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+ERROR 2025-03-16 10:31:23,777 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+INFO 2025-03-16 10:33:56,476 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-16 10:34:08,187 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+WARNING 2025-03-16 11:53:32,592 log Not Found: /partners/
+INFO 2025-03-24 10:20:25,478 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 10:20:34,121 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:05:57,424 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:07:14,653 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-24 12:23:07,378 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+ERROR 2025-03-24 12:23:33,492 log Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-03-24 12:24:06,828 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+ERROR 2025-03-24 12:24:23,190 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'core.models.Response'>`
+INFO 2025-03-24 12:26:59,048 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:27:00,849 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-24 12:28:57,151 log Bad Request: /interviews/
+WARNING 2025-03-24 12:29:33,678 log Bad Request: /interviews/
+INFO 2025-03-24 12:30:24,507 views Starting question generation for interview 2
+ERROR 2025-03-24 12:30:24,509 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:30:24,510 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:30:39,588 views Starting question generation for interview 1
+ERROR 2025-03-24 12:30:39,591 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:30:39,592 log Internal Server Error: /interviews/1/generate-questions/
+INFO 2025-03-24 12:30:42,164 views Starting question generation for interview 1
+ERROR 2025-03-24 12:30:42,166 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:30:42,167 log Internal Server Error: /interviews/1/generate-questions/
+INFO 2025-03-24 12:31:14,917 views Starting question generation for interview 2
+ERROR 2025-03-24 12:31:14,918 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:31:14,919 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:31:16,352 views Starting question generation for interview 2
+ERROR 2025-03-24 12:31:16,354 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:31:16,355 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:31:28,528 views Starting question generation for interview 1
+ERROR 2025-03-24 12:31:28,529 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:31:28,530 log Internal Server Error: /interviews/1/generate-questions/
+WARNING 2025-03-24 12:31:38,672 log Method Not Allowed: /interviews/generate-questions/
+WARNING 2025-03-24 12:31:48,105 log Not Found: /interviews/generate-questions/
+INFO 2025-03-24 12:31:56,985 views Starting question generation for interview 2
+ERROR 2025-03-24 12:31:56,987 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:31:56,987 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:32:07,117 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:32:10,201 views Starting question generation for interview 2
+ERROR 2025-03-24 12:32:10,204 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:32:10,205 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:32:11,415 views Starting question generation for interview 2
+ERROR 2025-03-24 12:32:11,416 views Critical error: No Interview matches the given query.
+ERROR 2025-03-24 12:32:11,417 log Internal Server Error: /interviews/2/generate-questions/
+INFO 2025-03-24 12:34:11,109 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:12,330 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:21,201 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:21,822 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:28,531 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:29,164 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:34,628 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:35,141 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:39,494 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:40,001 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:51,633 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:52,208 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:54,540 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:54,978 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:56,346 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:56,888 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:34:58,311 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:34:58,782 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:06,281 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:06,728 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:10,113 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:10,602 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:11,927 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:12,394 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:14,766 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:15,265 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:17,742 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:18,176 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:20,613 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:21,273 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:22,633 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:23,161 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:29,606 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:30,204 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:42,598 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:43,367 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:49,547 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:50,471 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:35:55,974 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:35:56,486 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:36:16,503 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:36:17,049 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:36:23,266 views Starting question generation for interview 2
+WARNING 2025-03-24 12:36:23,276 log Bad Request: /interviews/2/generate-questions/
+INFO 2025-03-24 12:36:33,084 views Starting question generation for interview 1
+WARNING 2025-03-24 12:36:33,090 log Bad Request: /interviews/1/generate-questions/
+INFO 2025-03-24 12:36:54,762 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:37:04,561 views Starting question generation for interview 1
+WARNING 2025-03-24 12:37:04,568 log Bad Request: /interviews/1/generate-questions/
+INFO 2025-03-24 12:39:06,846 autoreload /home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py changed, reloading.
+INFO 2025-03-24 12:39:07,519 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:39:11,782 views Starting question generation for interview 1
+INFO 2025-03-24 12:39:11,788 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:39:11,789 log Bad Request: /interviews/1/generate-questions/
+INFO 2025-03-24 12:39:55,888 views Starting question generation for interview 1
+INFO 2025-03-24 12:39:55,894 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:39:55,895 log Bad Request: /interviews/1/generate-questions/
+INFO 2025-03-24 12:42:12,206 views Starting question generation for interview 3
+INFO 2025-03-24 12:42:12,209 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:42:12,209 log Bad Request: /interviews/3/generate-questions/
+INFO 2025-03-24 12:42:20,924 views Starting question generation for interview 3
+INFO 2025-03-24 12:42:20,927 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:42:20,927 log Bad Request: /interviews/3/generate-questions/
+INFO 2025-03-24 12:42:24,804 views Starting question generation for interview 3
+INFO 2025-03-24 12:42:24,806 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:42:24,806 log Bad Request: /interviews/3/generate-questions/
+INFO 2025-03-24 12:43:08,987 views Starting question generation for interview 3
+INFO 2025-03-24 12:43:08,994 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:43:08,995 log Bad Request: /interviews/3/generate-questions/
+INFO 2025-03-24 12:43:10,373 views Starting question generation for interview 3
+INFO 2025-03-24 12:43:10,375 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:43:10,376 log Bad Request: /interviews/3/generate-questions/
+INFO 2025-03-24 12:43:36,720 views Starting question generation for interview 3
+INFO 2025-03-24 12:43:36,724 views Found skills for candidate Stephen882-pixel: []
+WARNING 2025-03-24 12:43:36,725 log Bad Request: /interviews/3/generate-questions/
+ERROR 2025-03-24 12:43:46,101 log Internal Server Error: /skills/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: core_programmingskill.user_id, core_programmingskill.language
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py", line 71, in perform_create
+    serializer.save(user = self.request.user)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/Interview_ai/core/serializers.py", line 21, in create
+    skill = ProgrammingSkill.objects.create(**validated_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: core_programmingskill.user_id, core_programmingskill.language
+ERROR 2025-03-24 12:44:02,358 log Internal Server Error: /skills/
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: core_programmingskill.user_id, core_programmingskill.language
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/stephen/Desktop/Interview_ai/Interview_ai/core/views.py", line 71, in perform_create
+    serializer.save(user = self.request.user)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/Interview_ai/core/serializers.py", line 21, in create
+    skill = ProgrammingSkill.objects.create(**validated_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stephen/Desktop/Interview_ai/virtual/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: core_programmingskill.user_id, core_programmingskill.language
+INFO 2025-03-24 12:44:14,494 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 12:44:20,652 views Starting question generation for interview 3
+INFO 2025-03-24 12:44:20,659 views Found skills for candidate Stephen882-pixel: [<ProgrammingSkill: ProgrammingSkill object (2)>]

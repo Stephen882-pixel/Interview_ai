@@ -19,50 +19,58 @@ class User(AbstractUser):
     )
 
 class ProgrammingSkill(models.Model):
-    user = models.ForeignKey(User,on_delete=models.CASCADE,related_name='skills')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='skills')
     language = models.CharField(max_length=50)
     proficiency = models.IntegerField(
-        validators=[MinValueValidator(1),MaxValueValidator(10)]
+        validators=[MinValueValidator(1), MaxValueValidator(10)]
     )
 
     class Meta:
-        unique_together = ['user','language']
+        unique_together = ['user', 'language']
 
 class Interview(models.Model):
-    interview_id = models.AutoField(primary_key=True,unique=True),
-    interview = models.ForeignKey(User,on_delete=models.CASCADE,related_name='interviews')
+    interview_id = models.AutoField(primary_key=True, unique=True)
+    recruiter = models.ForeignKey(User, on_delete=models.CASCADE, related_name='interviews')  # Renamed from 'interview'
     created_at = models.DateTimeField(auto_now_add=True)
     status = models.CharField(
         max_length=20,
         choices=[
-            ('pending','Pending'),
-            ('in_progress','In Progress'),
-            ('completed','Completed')
+            ('pending', 'Pending'),
+            ('in_progress', 'In Progress'),
+            ('completed', 'Completed')
         ],
         default='pending'
     )
-    candidate = models.ForeignKey(User,on_delete=models.CASCADE,blank=True,null=True,related_name='candidate')
-    total_score = models.FloatField(null=True,blank=True)
+    candidate = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True, related_name='candidate')
+    total_score = models.FloatField(null=True, blank=True)
+
+    def __str__(self):
+        return f"Interview {self.interview_id} for {self.candidate}"
 
 class Question(models.Model):
-    interview = models.ForeignKey(Interview,on_delete=models.CASCADE,related_name='questions')
+    interview = models.ForeignKey(Interview, on_delete=models.CASCADE, related_name='questions')
     type = models.CharField(
         max_length=20,
         choices=[
-            ('technical','Technical'),
-            ('behavioural','behavioural')
+            ('technical', 'Technical'),
+            ('behavioural', 'Behavioural')
         ]
     )
     content = models.TextField()
-    skill = models.ForeignKey(ProgrammingSkill,null=True,blank=True,on_delete=models.SET_NULL)
+    skill = models.ForeignKey(ProgrammingSkill, null=True, blank=True, on_delete=models.SET_NULL)
+
+    def __str__(self):
+        return self.content[:50]
 
 class Response(models.Model):
-    question = models.ForeignKey(Question,on_delete=models.CASCADE,related_name='responses')
+    question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name='responses')
     content = models.TextField()
-    score = models.FloatField(null=True,blank=True)
-    feedback = models.TextField(null=True,blank=True)
+    score = models.FloatField(null=True, blank=True)
+    feedback = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    
+
+    def __str__(self):
+        return f"Response to {self.question}"
 
     
                              
